@@ -36,6 +36,9 @@ Dự án được lập trình để nhận diện 2 thao tác điều khiển �
 4. **Biên dịch & Tải thư viện:** Nhấn nút **Build (biểu tượng dấu ✓)** ở thanh trạng thái dưới cùng của PlatformIO. Hệ thống sẽ tự động tải thư viện `OneButton` và framework Arduino về máy.
 5. **Nạp code (Upload):** Nhấn nút **Upload (biểu tượng mũi tên →)** ở thanh trạng thái để đẩy mã nguồn xuống vi điều khiển. Đợi Terminal báo `[SUCCESS]` là hoàn thành.
 
+## Video minh hoạt khi chạy
+Google Drive: https://drive.google.com/file/d/1aQYqtyoqFUCaChsScQ-Ql_1lY8ClYmwu/view?usp=sharing
+
 ## Cấu hình `platformio.ini`
 Dự án sử dụng file cấu hình sau để định nghĩa các tham số biên dịch và thay đổi chân cắm (LED_PIN = 18) trực tiếp qua `build_flags` mà không cần can thiệp vào file `main.cpp`:
 
